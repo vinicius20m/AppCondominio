@@ -1,0 +1,50 @@
+{
+  "name": "DevCondominio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.9",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/drawer": "^5.12.9",
+    "@react-navigation/native": "^5.9.8",
+    "@react-navigation/stack": "^5.14.9",
+    "@types/styled-components-react-native": "^5.1.3",
+    "moment": "^2.29.4",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-calendar-picker": "^7.1.2",
+    "react-native-date-picker": "^4.2.5",
+    "react-native-gesture-handler": "^2.5.0",
+    "react-native-image-picker": "^3.8.1",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.4.1",
+    "react-native-screens": "^3.16.0",
+    "react-native-vector-icons": "^9.2.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/runtime": "7.18.9",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
